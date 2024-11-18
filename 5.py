@@ -23,6 +23,6 @@ def parse_html_to_csv(html_filepath, csv_filepath):
             writer.writerow(row_data)
 
 if __name__ == '__main__':
-    html_filepath = 'fifth_task.html'
-    csv_filepath = 'output.csv'
+    html_filepath = './resources/fifth_task.html'
+    csv_filepath = './5_result.csv'
     parse_html_to_csv(html_filepath, csv_filepath)
